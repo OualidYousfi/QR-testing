@@ -1,0 +1,19 @@
+{
+    "name": "qr-testing",
+    "version": "1.0.0",
+    "main": "main.js",
+    "devDependencies": {
+        "electron": "^1.8.2",
+        "electron-rebuild": "^1.7.3"
+    },
+    "scripts": {
+        "start": "electron ."
+    },
+    "dependencies": {
+        "mkdirp": "^0.5.1",
+        "qr": "^0.2.4",
+        "qr-encoder": "^1.1.1",
+        "qr-image": "^3.2.0",
+        "qrcode": "^1.2.0"
+    }
+}

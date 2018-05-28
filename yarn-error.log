@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js remove vows
+
+PATH: 
+  C:\local\vips-dev-8.6\bin;C:\Python27\;C:\Python27\python.exe;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\local\apache-maven-3.5.2\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2.5\plugins\maven\lib\maven2\;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.2.5\plugins\maven\lib\maven2\bin\;C:\Program Files\Java\jdk1.8.0_111\bin\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Noblesse\AppData\Roaming\npm;C:\opencv\build\bin;C:\Program Files\CMake\bin;C:\MinGW\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2017\Visual Studio Tools;C:\boost-build-engine\bin;C:\local\chromedriver.exe;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\GTK2-Runtime\bin;C:\MinGW\msys\1.0\msys.bat;C:\Program Files (x86)\QRCodeGui;C:\Users\Noblesse\AppData\Local\Microsoft\WindowsApps;C:\Users\Noblesse\AppData\Roaming\npm;C:\Users\Noblesse\AppData\Local\Programs\Python\Python36-32;C:\opencv\build\x64\vc14\bin;C:\opencv\build\bin;C:\Program Files\Heroku\bin;C:\Users\Noblesse\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Noblesse\AppData\Local\Yarn\bin;C:\libjpeg-turbo64\bin;
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+      "name": "qr-testing",
+      "version": "1.0.0",
+      "main": "main.js",
+      "devDependencies": {
+          "electron": "^1.8.2",
+          "electron-rebuild": "^1.7.3"
+      },
+      "scripts": {
+          "start": "electron ."
+      },
+      "dependencies": {
+          "jimp": "oliver-moran/jimp",
+          "qr": "^0.2.4",
+          "qr-encoder": "^1.1.1",
+          "qr-image": "^3.2.0",
+          "qrcode": "^1.2.0",
+          "sharp": "^0.20.1",
+          "vows": "^0.8.1"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: No lockfile in this directory. Run `yarn install` to generate one.
+      at new MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:89389:13
+      at <anonymous>
